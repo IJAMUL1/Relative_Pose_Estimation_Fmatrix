@@ -1,6 +1,10 @@
 # Stereo Pose Estimation with ArUco Markers
 This project aims to estimate the pose (rotation and translation) of a stereo camera setup using ArUco markers. ArUco markers are used as reference points to establish correspondences between the images captured by the left and right cameras, enabling the computation of the camera pose.
 
+*Outline of epipolar lines gotten using the fundamental matrix*
+
+![outline of epipolar geometry](https://github.com/IJAMUL1/RTDETR-Tracking-Detection/assets/60096099/cb7096f0-c06c-417f-9e2d-e2bea23e9be1)
+
 ## Objective
 The primary objective of this project is to accurately determine the relative pose of the stereo camera system with respect to the scene. By detecting and analyzing ArUco markers in stereo images, the project seeks to provide robust and precise pose estimation, which can be valuable for applications such as robotics, augmented reality, and 3D reconstruction.
 
@@ -33,8 +37,3 @@ Incorporate real-time pose estimation capabilities for dynamic scenes.
 ## Implement a graphical user interface (GUI) for user-friendly interaction and visualization.
 
 Explore advanced techniques for robust marker detection and pose estimation under challenging conditions such as occlusions and varying lighting conditions.
-
-
-
-*Outline of epipolar lines*
-![outline of epipolar geometry](https://github.com/IJAMUL1/RTDETR-Tracking-Detection/assets/60096099/cb7096f0-c06c-417f-9e2d-e2bea23e9be1)
